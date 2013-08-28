@@ -1,0 +1,7 @@
+Aktuelles Wetter in:
+${weather.city}, ${weather.region}, ${weather.country}
+Temperatur: ${weather.temp}
+Wetter: ${weather.condition}
+Luftfeuchtigkeit: ${weather.humidity}
+Wind Chill: ${weather.chill}
+Sonnenaufgang: ${weather.sunrise}
