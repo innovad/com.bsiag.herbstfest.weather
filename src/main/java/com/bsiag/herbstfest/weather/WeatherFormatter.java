@@ -1,25 +1,17 @@
 package com.bsiag.herbstfest.weather;
 
-import java.io.File;
-import java.io.FileWriter;
 import java.io.StringWriter;
 import java.io.Writer;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
-import org.apache.log4j.Logger;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 
 public class WeatherFormatter {
 
-	private static Logger log = Logger.getLogger(WeatherFormatter.class);
-
 	public String format(Weather weather) throws Exception {
 		// Configuration
-		Writer file = null;
 		Configuration cfg = new Configuration();
 
 		try {

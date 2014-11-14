@@ -6,8 +6,6 @@ import org.apache.log4j.PropertyConfigurator;
 
 public class Main {
 
-	private String woeid;
-
 	public static void main(String[] args) throws Exception {
 		// Configure Log4J
 		PropertyConfigurator.configure(Main.class.getClassLoader().getResource("log4j.properties"));
