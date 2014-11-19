@@ -11,7 +11,7 @@ public class Main {
 		PropertyConfigurator.configure(Main.class.getClassLoader().getResource("log4j.properties"));
 
 		// Read the WOEID Code from the Command-line
-		String woeid = "2423945";
+		String woeid = "781712";
 		try {
 			woeid = args[0];
 		} catch (Exception e) {
