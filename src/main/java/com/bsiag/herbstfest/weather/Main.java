@@ -10,6 +10,11 @@ public class Main {
 		// Configure Log4J
 		PropertyConfigurator.configure(Main.class.getClassLoader().getResource("log4j.properties"));
 
+		// TODO BSI CRM Platin Build 1 (Plain Maven Project without Tycho)
+		// Build this project with Maven.
+		// Run it on command line.
+		// Change the default location (woeid), build and run again.
+
 		// Read the WOEID Code from the Command-line
 		String woeid = "781712";
 		// String woeid = "12478530";
