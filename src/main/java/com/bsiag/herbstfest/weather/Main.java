@@ -16,7 +16,8 @@ public class Main {
 		// Change the default location (woeid), build and run again.
 
 		// Read the WOEID Code from the Command-line
-		String woeid = "781712";
+		String woeid = "676757"; // München
+		// String woeid = "781712"; // Baden
 		// String woeid = "12478530";
 		try {
 			woeid = args[0];
