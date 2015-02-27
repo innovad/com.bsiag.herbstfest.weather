@@ -12,7 +12,8 @@ public class Main {
 
 		// TODO BSI CRM Platin Build 1 (Plain Maven Project without Tycho)
 		// Build this project with Maven.
-		// Run it on command line.
+		// Run it on command line
+		// (java -classpath com.bsiag.herbstfest.weather-1.0-SNAPSHOT-jar-with-dependencies.jar com.bsiag.herbstfest.weather.Main)
 		// Change the default location (woeid), build and run again.
 
 		// Read the WOEID Code from the Command-line
