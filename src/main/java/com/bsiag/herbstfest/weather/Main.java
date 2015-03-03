@@ -11,8 +11,8 @@ public class Main {
 		PropertyConfigurator.configure(Main.class.getClassLoader().getResource("log4j.properties"));
 
 		// TODO BSI CRM Platin Build 1 (Plain Maven Project without Tycho)
-		// Build this project with Maven.
-		// Run it on command line
+		// Build this project with Maven (m2e)
+		// Run the java application on command line
 		// (java -classpath com.bsiag.herbstfest.weather-1.0-SNAPSHOT-jar-with-dependencies.jar com.bsiag.herbstfest.weather.Main)
 		// Change the default location (woeid), build and run again.
 
